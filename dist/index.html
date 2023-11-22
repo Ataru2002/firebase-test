@@ -5,6 +5,8 @@
     <title>Firebase 9</title>
 </head>
 <body>
+    <input type="file" id="fileInput">
+    <pre id="fileContent"></pre>
     <h1>Getting Started with Firebase 9</h1>
     <form class="signup">
         <label for = "email">Email:</label>
@@ -26,7 +28,12 @@
         <button>Login</button>
     </form>
     <button class="logout">Logout</button>
-
+    <div id="dropdownContainer">
+        <select id="dropdown">
+            <p id="dropdownContent"></p>
+        </select>
+    </div>
     <script src="bundle.js"></script>
+    
 </body>
 </html>
